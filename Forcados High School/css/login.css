@@ -1,0 +1,58 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(../login.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(6, 6, 6);
+    width: 90%;
+    max-width: 500px;
+    
+}
+
+h2 {
+    text-align: center;
+    color: rgb(46, 43, 43);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #454242;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    width: 85%;
+    background-color: rgb(33, 75, 151);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;   
+}
